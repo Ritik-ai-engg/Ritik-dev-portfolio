@@ -14,7 +14,7 @@ function Hero(){
             </div>
             <div className="hero-right">
                 <div className="profile-image">
-                    <img src="/Ritik-dev-portfolio/Ritik%20Rajput.jpeg" alt="Ritik-Rajput" />
+                     <img src="Ritik Rajput.jpeg" alt="Ritik Rajput" />
                 </div>
             </div>
         </section>
