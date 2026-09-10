@@ -3,7 +3,7 @@ function Navbar(){
     return (
         <nav>
             <div className="logo">
-                Ritik
+               <h2>Ritik</h2> 
             </div>
             <ul className="nav-links">
                 <li><a href="#home">Home</a></li>
