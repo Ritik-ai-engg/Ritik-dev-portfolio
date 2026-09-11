@@ -115,13 +115,6 @@
     color: #0f172a;
 }
 
-/* Tablet + Mobile */
-/* @media (max-width: 768px) {
-
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-} */
 
 /* Mobile */
 @media (max-width: 450px) {

@@ -1,4 +1,10 @@
-function Navbar(){
-    return <h1>Navbar</h1>
+import"../css/footer.css";
+function Footer(){
+    return (
+        <footer className="footer">
+            <p>© 2026 Ritik Rajput</p>
+            <span>All Rights Reserved</span>
+        </footer>
+    )
 }
-export default Navbar;
+export default Footer;
