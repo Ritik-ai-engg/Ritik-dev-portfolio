@@ -138,103 +138,21 @@
 
 
 
-/* PHONE RESPONSIVE               */
+@media (max-width: 768px) {
+     .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+     }
+}             
 
 
 @media (max-width: 480px) {
-
     .contact-section {
         padding: 70px 5%;
     }
-
-    .section-heading {
-        margin-bottom: 30px;
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
-
-    .section-heading h2 {
-        font-size: 30px;
-    }
-
-    .section-heading p {
-        font-size: 15px;
-    }
-
-
-
-    .contact-info {
-        padding: 22px;
-    }
-
-    .contact-info h3 {
-        font-size: 24px;
-    }
-
-    .contact-info > p {
-        font-size: 14px;
-        line-height: 1.6;
-        margin-bottom: 25px;
-    }
-
-
-   
-
-    .contact-item {
-        margin-bottom: 20px;
-    }
-
-    .contact-item h4 {
-        font-size: 16px;
-    }
-
-    .contact-item p {
-        font-size: 14px;
-    }
-
-
- 
-
-    .social-links {
-        gap: 10px;
-        margin-top: 25px;
-    }
-
-    .social-links a {
-        padding: 8px 14px;
-        font-size: 14px;
-    }
-
-
-  
-
-    .contact-form {
-        padding: 22px;
-    }
-
-    .form-group {
-        margin-bottom: 18px;
-    }
-
-    .form-group label {
-        font-size: 14px;
-    }
-
-    .form-group input,
-    .form-group textarea {
-        font-size: 14px;
-        padding: 11px 12px;
-    }
-
-    .form-group input {
-        height: 44px;
-    }
-
-    .form-group textarea {
-        min-height: 120px;
-    }
-
-    .contact-form button {
-        padding: 12px;
-        font-size: 15px;
-    }
-
 }
+
