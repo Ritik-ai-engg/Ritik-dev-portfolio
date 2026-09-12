@@ -45,8 +45,8 @@ function Contact(){
                             <p>India</p>
                         </div>
                         <div className="social-links">
-                            <a href="#" target="_blank">GitHub</a>
-                            <a href="#" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/Ritik-ai-engg" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/ritik-rajput-857801348/" target="_blank">LinkedIn</a>
                         </div>
                     </div>
                     <form  className="contact-form" onSubmit={handleSubmit}>
