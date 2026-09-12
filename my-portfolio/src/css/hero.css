@@ -60,6 +60,8 @@
    object-position: center 25%;
    display: block;
    border-radius: 50%;
+   position: relative;
+  z-index: 5;
 }
 @media(max-width:768px){
    .hero{

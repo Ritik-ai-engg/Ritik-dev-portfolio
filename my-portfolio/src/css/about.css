@@ -35,6 +35,8 @@
     object-fit: cover;
     object-position: center 25%;
     display: block;
+    position: relative;
+    z-index: 5;
 }
 
 /*---------------text----------*/

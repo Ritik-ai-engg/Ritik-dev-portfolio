@@ -6,7 +6,7 @@ import Projects from"./components/Projects";
 import Education from"./components/Education";
 import Contact from"./components/Contact";
 import Footer from"./components/Footer";
-
+import BackgroundAnimation from "./components/background";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
      <Education/>
      <Contact/>
      <Footer/>
+    <BackgroundAnimation />
     </>
   );
 }
